@@ -12,20 +12,49 @@ header {
   }
 
   .container {
-    margin-top: 30px;
     display: flex;
     justify-content: center;
 
   }
 
+  .todo-list {
+    width: 400px;
+  }
+
+  .input-group{
+    width: 400px;
+  }
+
+  table {
+    margin: 0;
+  }
+
+  input {
+    width: 322px;
+  }
+  
+  .add-button {
+    width: 70px;
+  }
+
   .even{
     background-color: darkgray;
     color: rgb(255,255, 255);
+    width: 400px;
   }
 
   .odd {
     background-color: #222222;
     color: rgb(255,255,255);
+  }
+
+  .remove-button {
+    height: 50px;
+    background-color: rgba(255, 0, 0, 0.459);
+  }
+
+  .done-button {
+    height: 50px;
   }
 
   .is-done {
